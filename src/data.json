@@ -4,7 +4,7 @@
             "_id" : "dress1",
             "title" : "Dress 1",
             "description" : "About dress 1",
-            "price" : 20,
+            "price" : 5,
             "availableSize" : ["XL", "XXL"],
             "image": "/images/dress1.jpg"
         },
@@ -13,22 +13,22 @@
             "title" : "Dress 2",
             "description" : "About dress 2",
             "price" : 20,
-            "availableSize" : ["XL", "XXL"],
+            "availableSize" : ["M","XL", "XXL"],
             "image": "/images/dress2.jpg"
         },
         {
             "_id" : "dress3",
             "title" : "Dress 3",
             "description" : "About dress 3",
-            "price" : 20,
-            "availableSize" : ["XL", "XXL"],
+            "price" : 15,
+            "availableSize" : ["L","XL", "XXL"],
             "image": "/images/dress3.jpg"
         },{
             "_id" : "dress4",
             "title" : "Dress 4",
             "description" : "About dress 4",
-            "price" : 20,
-            "availableSize" : ["XL", "XXL"],
+            "price" : 10,
+            "availableSize" : ["L"],
             "image": "/images/dress4.jpg"
         }
     ]
