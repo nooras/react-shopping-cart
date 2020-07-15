@@ -33,7 +33,3 @@ Store(state hub)
 ## Install shortid mongoose express body-parser
 - npm install shortid mongoose express body-parser
 - yarn add shortid mongoose express body-parser
-
-
-
-mongodb+srv://react-shopping-cart-test:123456123456@cluster0.3ahxt.mongodb.net/<dbname>?retryWrites=true&w=majority
