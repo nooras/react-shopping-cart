@@ -2,7 +2,7 @@
 
 # Steps of react flow
 
-![Screenshot](redux flow.jpg)
+![Reduc Flow](redux_flow.jpg)
 
 
 ## Step 1:
