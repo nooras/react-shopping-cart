@@ -6,7 +6,12 @@ const shortid = require("shortid");
 const app = express();
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://localhost/react-shop-cart-db",{
+// for build by these 2 line we can see project on localhost:5000
+app.use("/", express.static(__dirname + "/build"));
+app.get("/", (req, res) => res.sendFile(__dirname + "/build/index.html"));
+
+mongoose.connect(
+    process.env.MOONGODB_URL || "mongodb://localhost/react-shop-cart-db",{
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology:true,
