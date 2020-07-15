@@ -37,6 +37,7 @@ header{
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0.5rem;
 }
 
@@ -275,4 +276,27 @@ input{
 
 .success-message{
   color: green;
+}
+
+/* Order */
+
+.orders{
+  width: 100%;
+  padding: 10px;
+}
+
+tbody > tr:nth-child(odd){
+  background-color: #f0f0f0;
+}
+
+td{
+  padding: 5px;
+}
+
+th{
+  text-align: left;
+}
+
+table{
+  width: 100%;
 }
